@@ -1,5 +1,5 @@
 # DeepFRI: A Deep Plug-and-Play Technique for Finite-Rate-of-Innovation Signal Reconstruction
-This repository contains a reproducible PyTorch implementation for the paper: https://ieeexplore.ieee.org/abstract/document/11080367. The majority of the code was authored by [Sharan Basav Patil](mailto:sharanbasav23@gmail.com)<br>, with additional contributions and repository maintenance by [Abijith J. Kamath](mailto:abijithj@iisc.ac.in)<br>.
+This repository contains a reproducible PyTorch implementation for the paper: https://ieeexplore.ieee.org/abstract/document/11080367. The majority of the code was authored by [Sharan Basav Patil](mailto:sharanbasav23@gmail.com), with additional contributions and repository maintenance by [Abijith J. Kamath](mailto:abijithj@iisc.ac.in).
 
 ### 1. Requirements
 
