@@ -1,3 +1,18 @@
+data/
+results/
+environment.yml
+setup.py
+
+scripts/PlotResults.ipynb
+scripts/PlotExamples.ipynb
+scripts/PlotExamples.py
+scripts/ultrasound-results.txt
+scripts/Ultrasound.ipynb
+scripts/ultrasound.py
+scripts/test_deepfri_ablations.py
+
+*.sh
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

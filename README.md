@@ -2,22 +2,41 @@
 This repository contains a reproducible PyTorch implementation for the paper: https://ieeexplore.ieee.org/abstract/document/11080367. 
 
 Code authors:
-
-- [Sharan Basav Patil](mailto:sharanbasav23@gmail.com), Imperial College London
-- [Abijith J. Kamath](mailto:abijithj@iisc.ac.in), Indian Institute of Science
+[Sharan Basav Patil](mailto:sharanbasav23@gmail.com) and [Abijith J. Kamath](mailto:abijithj@iisc.ac.in), Indian Institute of Science
 
 ### 1. Requirements
 
-### 2. Prepare data
+This work requires a modified version of the ComplexPyTorch library (coming soon).
+
+### 2. Prepare training data
+
+Generate training and testing dataset using
+``` bash
+python3 generate_dataset.py --N 21 --K 2 --gamma 5 --T 1.0 --num_data 100000 --mode train
+python3 generate_dataset.py --N 21 --K 2 --gamma 5 --T 1.0 --num_data 10000 --mode test
+
+```
 
 ### 3. Training example
 
+Train using
+``` bash
+python3 main.py
+```
+
 ### 4. Evaluation example
+
+Test using
+``` bash
+python3 test_deepfri.py
+```
+
+<!-- ### 5. Data and examples for ultrasound imaging -->
 
 ## Citation
 If you use code from this repository, please cite the following:
 
-```
+``` bash
 @article{kamath2025deepfri,
 	author={Kamath, Abijith Jagannath and Patil, Sharan Basav and Seelamantula, Chandra Sekhar},
 	journal={IEEE Transactions on Signal Processing}, 
